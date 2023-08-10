@@ -1,0 +1,9 @@
+<!doctype html>
+<title>Welcome to my Shopify app!</title>
+{% if shop %}
+<h1>Welcome to my {{ shop }}!</h1>
+  <p>this is my contact info skype : live:.cid.a6a4db85f6a0e493 </p>
+  <p>this is my access token : {{ ACCESS_TOKEN }}</p>
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %}
